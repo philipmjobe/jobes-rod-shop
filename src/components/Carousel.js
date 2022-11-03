@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 const Carousel = () => {
   const data = [
     "Suspension work",
-    "Engine diag",
-    "Noise diag",
+    "Engine diagnosis",
+    "Noise diagnosis",
     "Brakes",
     "Vehicle maintenance",
     "Aftermarket parts install",

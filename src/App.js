@@ -15,7 +15,9 @@ function App() {
         <Carousel>
           <div className="carousel-container">
             <div className="carousel-item">
-              <h3>Item 1</h3>
+              <h3>
+                <b>Item 1</b>
+              </h3>
             </div>
             <div className="carousel-item">
               <h3>Item 2</h3>
@@ -24,7 +26,9 @@ function App() {
               <h3>Item 3</h3>
             </div>
             <div className="carousel-item">
-              <h3>Item 4</h3>
+              <img src="./un-liu-yqsgL2wKEHA-unsplash.jpg" alt="">
+                <h3>Item 4</h3>
+              </img>
             </div>
             <div className="carousel-item">
               <h3>Item 5</h3>
