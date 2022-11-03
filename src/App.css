@@ -43,3 +43,18 @@ ul
 {
     list-style-type: none;
 }
+.carousel-container {
+  background: #7c7777;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.carousel-item {
+  height: 20rem;
+  min-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
