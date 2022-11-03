@@ -1,21 +1,18 @@
-import jobesrodshop from "./jobesrodshop.jpeg";
+import jobesrodshop from "./jobesrodshop.PNG";
 import Card from "react-bootstrap/Card";
 import "./App.css";
+import background from "./pexels-mi.jpg";
 
 function App() {
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{ backgroundImage: `url(${background})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}
+    >
       <header className="App-header">
         <img src={jobesrodshop} className="App-logo" alt="logo" />
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-
+      </header>
+      <body>
         <Card style={{ width: "70rem" }}>
           <Card.Body>
             <Card.Title>Abilities:</Card.Title>
@@ -37,7 +34,7 @@ function App() {
             <Card.Link href="#">Another Link</Card.Link> */}
           </Card.Body>
         </Card>
-      </header>
+      </body>
     </div>
   );
 }
