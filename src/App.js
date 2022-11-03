@@ -2,6 +2,7 @@ import jobesrodshop from "./jobesrodshop.PNG";
 import Card from "react-bootstrap/Card";
 import "./App.css";
 import background from "./pexels-mi.jpg";
+import Carousel from "./components/Carousel.js";
 
 function App() {
   return (
@@ -11,30 +12,38 @@ function App() {
     >
       <header className="App-header">
         <img src={jobesrodshop} className="App-logo" alt="logo" />
+        <Carousel>
+          <div className="carousel-container">
+            <div className="carousel-item">
+              <h3>Item 1</h3>
+            </div>
+            <div className="carousel-item">
+              <h3>Item 2</h3>
+            </div>
+            <div className="carousel-item">
+              <h3>Item 3</h3>
+            </div>
+            <div className="carousel-item">
+              <h3>Item 4</h3>
+            </div>
+            <div className="carousel-item">
+              <h3>Item 5</h3>
+            </div>
+            <div className="carousel-item">
+              <h3>Item 6</h3>
+            </div>
+            <div className="carousel-item">
+              <h3>Item 7</h3>
+            </div>
+            <div className="carousel-item">
+              <h3>Item 8</h3>
+            </div>
+            <div className="carousel-item">
+              <h3>Item 9</h3>
+            </div>
+          </div>
+        </Carousel>
       </header>
-      <body>
-        <Card style={{ width: "70rem" }}>
-          <Card.Body>
-            <Card.Title>Abilities:</Card.Title>
-            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-            <Card.Text>
-              <ul>
-                <li>Suspension work</li>
-                <li>Engine diagnosis</li>
-                <li>Noise diagnosis</li>
-                <li>Brakes</li>
-                <li>Vehicle maintenance</li>
-                <li>Aftermarket parts install</li>
-                <li>Lowering springs/ lift kits</li>
-                <li>Exhaust work</li>
-                <li>Tune ups</li>
-              </ul>
-            </Card.Text>
-            {/* <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link> */}
-          </Card.Body>
-        </Card>
-      </body>
     </div>
   );
 }
