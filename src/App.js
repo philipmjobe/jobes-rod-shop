@@ -12,42 +12,8 @@ function App() {
     >
       <header className="App-header">
         <img src={jobesrodshop} className="App-logo" alt="logo" />
-        <DemoCarousel>
-          {/* <div className="carousel-container">
-            <div className="carousel-item">
-              <h3>
-                <b>Item 1</b>
-              </h3>
-            </div>
-            <div className="carousel-item">
-              <h3>Item 2</h3>
-            </div>
-            <div className="carousel-item">
-              <h3>Item 3</h3>
-            </div>
-            <div className="carousel-item">
-              <img src="./un-liu-yqsgL2wKEHA-unsplash.jpg" alt="">
-                <h3>Item 4</h3>
-              </img>
-            </div>
-            <div className="carousel-item">
-              <h3>Item 5</h3>
-            </div>
-            <div className="carousel-item">
-              <h3>Item 6</h3>
-            </div>
-            <div className="carousel-item">
-              <h3>Item 7</h3>
-            </div>
-            <div className="carousel-item">
-              <h3>Item 8</h3>
-            </div>
-            <div className="carousel-item">
-              <h3>Item 9</h3>
-            </div>
-          </div> */}
-        </DemoCarousel>
       </header>
+      <DemoCarousel />
     </div>
   );
 }
