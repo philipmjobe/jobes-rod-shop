@@ -1,8 +1,8 @@
-import jobesrodshop from "./jobesrodshop.PNG";
+import jobesrodshop from "./assets/jobesrodshop.PNG";
 import Card from "react-bootstrap/Card";
 import "./App.css";
-import background from "./pexels-mi.jpg";
-import Carousel from "./components/Carousel.js";
+import background from "./assets/pexels-mi.jpg";
+import DemoCarousel from "./components/Carousel.js";
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
     >
       <header className="App-header">
         <img src={jobesrodshop} className="App-logo" alt="logo" />
-        <Carousel>
-          <div className="carousel-container">
+        <DemoCarousel>
+          {/* <div className="carousel-container">
             <div className="carousel-item">
               <h3>
                 <b>Item 1</b>
@@ -45,8 +45,8 @@ function App() {
             <div className="carousel-item">
               <h3>Item 9</h3>
             </div>
-          </div>
-        </Carousel>
+          </div> */}
+        </DemoCarousel>
       </header>
     </div>
   );
