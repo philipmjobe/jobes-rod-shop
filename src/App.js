@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import "./App.css";
 import background from "./assets/pexels-mi.jpg";
 import DemoCarousel from "./components/Carousel.js";
+import Gallery from "./components/Carousel.js";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <header className="App-header">
         <img src={jobesrodshop} className="App-logo" alt="logo" />
       </header>
-      <DemoCarousel />
+      <Gallery />
     </div>
   );
 }
