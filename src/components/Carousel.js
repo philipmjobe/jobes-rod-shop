@@ -28,51 +28,90 @@ function DarkVariantExample() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=e5e5e5" alt="Third slide" />
+        <img
+          className="d-block w-100"
+          src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyJTIwZW5naW5lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+          alt="Third slide"
+        />
         <Carousel.Caption>
           <h5>Noise diagnosis</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=e5e5e5" alt="Third slide" />
+        <img
+          className="d-block w-100"
+          src="https://images.unsplash.com/photo-1640021042525-5610f9f75444?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FyJTIwc3VzcGVuc2lvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+          alt="Third slide"
+        />
         <Carousel.Caption>
           <h5>Suspension work</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=e5e5e5" alt="Third slide" />
+        <img
+          className="d-block w-100"
+          src="https://www.kbb.com/wp-content/uploads/2021/08/car-maintenance-guide.jpeg?w=763"
+          alt="Third slide"
+        />
         <Carousel.Caption>
           <h5>Vehicle maintenance</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=e5e5e5" alt="Third slide" />
+        <img
+          className="d-block w-100"
+          src="https://di-uploads-pod1.dealerinspire.com/mercedesbenzofmilwaukeenorth/uploads/2019/01/Mercedes-Benz-of-Milwaukee-North-Parts-FAQ.jpg"
+          alt="Third slide"
+        />
         <Carousel.Caption>
           <h5>Aftermarket parts install</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=e5e5e5" alt="Third slide" />
+        <img
+          className="d-block w-100"
+          src="https://www.4wheelparts.com/the-dirt/wp-content/uploads/sites/3/2020/03/big-tires-rub.jpeg"
+          alt="Third slide"
+        />
         <Carousel.Caption>
-          <h5>Lowering springs/ lift kits</h5>
+          <h5>Lift kits</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=e5e5e5" alt="Third slide" />
+        <img
+          className="d-block w-100"
+          src="https://www.vividracing.com/wm.php/images/49-36609_5.jpg"
+          alt="Third slide"
+        />
         <Carousel.Caption>
           <h5>Exhaust work</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=e5e5e5" alt="Third slide" />
+        <img
+          className="d-block w-100"
+          src="https://repairsmith-prod-wordpress.s3.amazonaws.com/2022/03/iStock-1128875301-1.jpg"
+          alt="Third slide"
+        />
         <Carousel.Caption>
           <h5>Tune ups</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2020/05/5.-2013-Ford-F-150-FX2-e1589558717128.jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h5>Lowering springs</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption>
       </Carousel.Item>
