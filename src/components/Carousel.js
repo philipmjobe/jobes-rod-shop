@@ -13,18 +13,19 @@ function DarkVariantExample() {
         />
         <Carousel.Caption>
           <h5>Brakes</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>Prices vary on parts and labor.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src="https://ae01.alicdn.com/kf/Hd7bcfca587194b0fa4833ef7fe7b4d16C.jpg"
+          // style={{ height: 750.47, width: 500 }}
           alt="Second slide"
         />
         <Carousel.Caption>
           <h5>Engine diagnosis</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Prices vary on parts and labor.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -35,7 +36,7 @@ function DarkVariantExample() {
         />
         <Carousel.Caption>
           <h5>Noise diagnosis</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p>Prices vary on parts and labor.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -46,7 +47,7 @@ function DarkVariantExample() {
         />
         <Carousel.Caption>
           <h5>Suspension work</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p>Prices vary on parts and labor.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -57,7 +58,7 @@ function DarkVariantExample() {
         />
         <Carousel.Caption>
           <h5>Vehicle maintenance</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p>Prices vary on parts and labor.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -68,7 +69,7 @@ function DarkVariantExample() {
         />
         <Carousel.Caption>
           <h5>Aftermarket parts install</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p>Prices vary on parts and labor.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -79,7 +80,7 @@ function DarkVariantExample() {
         />
         <Carousel.Caption>
           <h5>Lift kits</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p>Prices vary on parts and labor.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -90,7 +91,7 @@ function DarkVariantExample() {
         />
         <Carousel.Caption>
           <h5>Exhaust work</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p>Prices vary on parts and labor.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -101,7 +102,7 @@ function DarkVariantExample() {
         />
         <Carousel.Caption>
           <h5>Tune ups</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p>Prices vary on parts and labor.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -112,7 +113,7 @@ function DarkVariantExample() {
         />
         <Carousel.Caption>
           <h5>Lowering springs</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p>Prices vary on parts and labor.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
