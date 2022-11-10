@@ -58,7 +58,19 @@ h5 {
   font-weight: 900;
 }
 
-h4 {
-  color: white;
+h1 {
+  color: rgb(225, 226, 195);
   font-weight: 900;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+  color: rgb(175, 8, 22);
+  font-weight: 900;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  -webkit-text-stroke: 1px black;
+}
+
+Carousel-Indicators li {
+  display: none;
 }
