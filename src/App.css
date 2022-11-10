@@ -3,9 +3,9 @@
 }
 
 .App-logo {
-  height: 25vmin;
+  height: 35vmin;
   pointer-events: none;
-  position: fixed;
+  position: absolute;
   top: 0;
 }
 
@@ -58,7 +58,7 @@ h5 {
   font-weight: 900;
 }
 
-p {
-  color: red;
+h4 {
+  color: white;
   font-weight: 900;
 }
