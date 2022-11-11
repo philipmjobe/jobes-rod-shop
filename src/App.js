@@ -1,8 +1,8 @@
 import jobesrodshop from "./assets/jobesrodshop.PNG";
-import Card from "react-bootstrap/Card";
 import "./App.css";
 import background from "./assets/pexels-mi.jpg";
 import DarkVariantExample from "./components/Carousel.js";
+import ContactForm from "./components/ContactForm.js";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <img src={jobesrodshop} className="App-logo" alt="logo" />
       </header>
       <DarkVariantExample />
+      <ContactForm />
     </div>
   );
 }
