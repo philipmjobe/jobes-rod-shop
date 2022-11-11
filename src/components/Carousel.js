@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 function DarkVariantExample() {
   return (
-    <Carousel variant="dark" style={{ width: "800px", marginLeft: "auto", marginRight: "auto" }} indicators="false">
+    <Carousel variant="dark" style={{ width: "800px", marginLeft: "auto", marginRight: "auto", controls: "false" }}>
       <Carousel.Item>
         <h1>Brakes</h1>
         <img
