@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { fieldset, label, input, textarea } from "@formspree/react";
+import { fieldset, h2, input, textarea } from "@formspree/react";
 
 function MyForm() {
   const [serverState, setServerState] = useState({
@@ -43,13 +43,13 @@ function MyForm() {
         method="post"
       >
         <fieldset id="fs-frm-inputs">
-          <label for="full-name">Full Name</label>
+          <h2 for="full-name">Full Name</h2>
           <input type="text" name="name" id="full-name" placeholder="First and Last" required="" />
-          <label for="email-address">Email Address</label>
+          <h2 for="email-address">Email Address</h2>
           <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="" />
-          <label for="telephone">Telephone Number (Optional)</label>
+          <h2 for="telephone">Telephone Number (Optional)</h2>
           <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555" />
-          <label for="complaint">Mesage</label>
+          <h2 for="complaint">Mesage</h2>
           <textarea rows="6" name="complaint" id="complaint" placeholder="Your Message" required=""></textarea>
           <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission" />
         </fieldset>
