@@ -160,3 +160,10 @@ form [type="reset"]:focus {
 form select {
   text-transform: none;
 }
+
+.facebook-button {
+  position: absolute;
+  padding-top: 2cm;
+  padding-right: 60%;
+  padding-bottom: 40%;
+}
