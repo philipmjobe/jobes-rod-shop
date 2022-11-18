@@ -1,16 +1,8 @@
 .App {
   text-align: center;
   background-image: url("./assets/pexels-mi.jpg");
-  /* Full height */
-  /* height: 100%; */
-
-  /* Center and scale the image nicely */
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  width: 100vw;
-    max-width: 100%;
-    min-height: 100vh;
 }
 
 body, html {
@@ -166,4 +158,15 @@ form select {
   padding-top: 2cm;
   padding-right: 60%;
   padding-bottom: 40%;
+}
+
+.phone-number {
+  position: absolute;
+  padding-top: 2cm;
+  padding-left: 60%;
+  padding-bottom: 40%;
+}
+
+p {
+  color: white;
 }

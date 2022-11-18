@@ -8,6 +8,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div className="phone-number">
+          <p>Give Us a Call at (740)507-2522</p>
+          <p>Or Send Me an Email at djobe901@yahoo.com</p>
+        </div>
         <div className="facebook-button">
           <MDBBtn
             className="m-1"
@@ -21,6 +25,8 @@ function App() {
         <img src={jobesrodshop} className="App-logo" alt="logo" />
       </header>
       <DarkVariantExample />
+      <br />
+      <br />
       <ContactForm />
     </div>
   );
