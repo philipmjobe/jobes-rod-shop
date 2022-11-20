@@ -3,6 +3,7 @@ import "./App.css";
 import DarkVariantExample from "./components/Carousel.js";
 import ContactForm from "./components/ContactForm.js";
 import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
+import { MDBFooter } from "mdb-react-ui-kit";
 
 function App() {
   return (
@@ -28,18 +29,16 @@ function App() {
       <br />
       <br />
       <ContactForm />
+      <MDBFooter bgColor="light" className="text-center text-lg-left">
+        <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
+          &copy; {new Date().getFullYear()} Copyright:{" "}
+          <a className="text-dark" href="https://philipmjobe.github.io/">
+            Created By Philip Jobe Check Me Out Here
+          </a>
+        </div>
+      </MDBFooter>
     </div>
   );
 }
 
 export default App;
-
-// Suspension work
-// Engine diag
-// Noise diag
-// Brakes
-// Vehicle maintenance
-// Aftermarket parts install
-// Lowering springs/ lift kits
-// Exhaust work
-// Tune ups

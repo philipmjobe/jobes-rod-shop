@@ -39,7 +39,7 @@ function MyForm() {
         id="fs-frm"
         name="complaint-form"
         accept-charset="utf-8"
-        action="https://formspree.io/f/{xbjbqeee}"
+        action="https://formspree.io/f/xbjbqeee"
         method="post"
       >
         <fieldset id="fs-frm-inputs">
