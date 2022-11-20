@@ -1,37 +1,35 @@
-import React, { useState } from "react";
-import axios from "axios";
-import { fieldset, h2, input, textarea } from "@formspree/react";
+import React from "react";
 
 function MyForm() {
-  const [serverState, setServerState] = useState({
-    submitting: false,
-    status: null,
-  });
-  const handleServerResponse = (ok, msg, form) => {
-    setServerState({
-      submitting: false,
-      status: { ok, msg },
-    });
-    if (ok) {
-      form.reset();
-    }
-  };
-  const handleOnSubmit = (e) => {
-    e.preventDefault();
-    const form = e.target;
-    setServerState({ submitting: true });
-    axios({
-      method: "post",
-      url: "https://formspree.io/f/xbjbqeee",
-      data: new FormData(form),
-    })
-      .then((r) => {
-        handleServerResponse(true, "Thanks!", form);
-      })
-      .catch((r) => {
-        handleServerResponse(false, r.response.data.error, form);
-      });
-  };
+  // const [serverState, setServerState] = useState({
+  //   submitting: false,
+  //   status: null,
+  // });
+  // const handleServerResponse = (ok, msg, form) => {
+  //   setServerState({
+  //     submitting: false,
+  //     status: { ok, msg },
+  //   });
+  //   if (ok) {
+  //     form.reset();
+  //   }
+  // };
+  // const handleOnSubmit = (e) => {
+  //   e.preventDefault();
+  //   const form = e.target;
+  //   setServerState({ submitting: true });
+  //   axios({
+  //     method: "post",
+  //     url: "https://formspree.io/f/xbjbqeee",
+  //     data: new FormData(form),
+  //   })
+  //     .then((r) => {
+  //       handleServerResponse(true, "Thanks!", form);
+  //     })
+  //     .catch((r) => {
+  //       handleServerResponse(false, r.response.data.error, form);
+  //     });
+  // };
   return (
     <div>
       <h1>Contact Us</h1>
