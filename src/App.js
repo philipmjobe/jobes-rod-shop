@@ -5,12 +5,12 @@ import ContactForm from "./components/ContactForm.js";
 import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 import { MDBFooter } from "mdb-react-ui-kit";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         <div className="phone-number">
-          <p>Give Us a Call at (740)507-2522</p>
+          <p>Give Me a Call at (740)507-2522</p>
           <p>Or Send Me an Email at djobe901@yahoo.com</p>
         </div>
         <div className="facebook-button">
@@ -39,6 +39,6 @@ function App() {
       </MDBFooter>
     </div>
   );
-}
+};
 
 export default App;
