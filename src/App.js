@@ -1,3 +1,4 @@
+import React from "react";
 import jobesrodshop from "./assets/jobesrodshop.PNG";
 import "./App.css";
 import DarkVariantExample from "./components/Carousel.js";
@@ -10,11 +11,11 @@ const App = () => {
   return (
     <div
       className="App"
+      class="text-center sm:flex md:flex lg:flex xl:flex 2xl:flex"
       style={{
         backgroundImage: `url(${background})`,
-        // backgroundAttachment: "fixed",
+        backgroundAttachment: "fixed",
         backgroundSize: "cover",
-        // width: "100vh",
       }}
     >
       <header className="App-header">
